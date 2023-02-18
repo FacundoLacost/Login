@@ -1,0 +1,96 @@
+body{ 
+    background-color: #390099;
+    font-weight: 600;
+    font-family: 'Babylonica', cursive;
+letter-spacing: 0,6px;
+font-size: 16px;
+}
+.container{
+    width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.recuadro-login{
+    width: 50%;
+    height: 60%;
+    background-color: #FF0054;
+border-radius: 20px; 
+background-image: url(img/zoe.jpg);  
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+}
+
+.container-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+form{
+    width: 100%; 
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+.container-input {
+    margin: 5px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+label {
+    color: rgb(200, 255, 0);
+    margin-bottom: 5px;
+    width: 70%;
+    
+}
+
+input{
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 70%;
+    border-radius: 20px;
+    height: 40px;
+    border:none;
+padding: 0 20px;
+}
+
+button{
+    margin-top:20px;
+    background-color: #390099;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+    font-weight: 600;
+    font-family: 'Babylonica', cursive;
+
+}
+.container-img {
+    background-image: url(img/zoe2.jpg);
+}
+
+
+
+
